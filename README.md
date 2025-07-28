@@ -93,6 +93,14 @@ GitHub Actions is set up to run tests on each push.
 
 JaCoCo generates coverage report in target/site/jacoco/index.html.
 
+🛠️ Future Enhancements
+Data-Driven Testing: Add support for parameterization using Excel or CSV files to drive multiple test scenarios dynamically.
+Test Data Management: Externalize test data (e.g., credentials, workout details) for better maintainability and scalability.
+Environment Support: Enable switching between environments (dev, QA, staging) via configuration files or command-line options.
+Parallel Execution: Enhance the test framework to support parallel UI/API test execution for faster feedback.
+Advanced Reporting: Integrate with tools like Allure or add historical trend analysis to ExtentReports.
+Dockerization: Package the entire stack (React, Node.js, MongoDB, tests) into Docker containers for isolated CI runs.
+
 📑 Documentation
 See TestPlan.md for test strategy, tools, and assumptions.
 
