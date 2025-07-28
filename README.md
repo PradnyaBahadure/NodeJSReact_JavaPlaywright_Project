@@ -92,6 +92,7 @@ target/extentReports/index.html
 GitHub Actions is set up to run tests on each push.
 
 JaCoCo generates coverage report in target/site/jacoco/index.html.
+If report not generated, run "mvn jacoco:report" in terminal, so it will generate report.
 
 🛠️ Future Enhancements
 Data-Driven Testing: Add support for parameterization using Excel or CSV files to drive multiple test scenarios dynamically.
