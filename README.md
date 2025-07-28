@@ -1,7 +1,7 @@
 # NodeJSReact_JavaPlaywright_Project
 
 This project demonstrates full-stack automation testing for a simple web application with a **React frontend** and a **Node.js backend API**. It includes both **UI automation using Playwright (Java)** and **API testing using REST-assured**.
-
+This application is used to automate the project. - https://github.com/BradTraversy/mern-tutorial
 ---
 
 ## 📌 Project Overview
