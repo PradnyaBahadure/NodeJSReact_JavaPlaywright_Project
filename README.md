@@ -103,7 +103,7 @@ Advanced Reporting: Integrate with tools like Allure or add historical trend ana
 Dockerization: Package the entire stack (React, Node.js, MongoDB, tests) into Docker containers for isolated CI runs.
 
 📑 Documentation
-See TestPlan.md for test strategy, tools, and assumptions.
+See TestPlan_Automation.docx for test strategy, tools, and assumptions.
 
 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first.
