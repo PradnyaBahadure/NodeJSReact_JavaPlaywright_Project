@@ -1,0 +1,42 @@
+name: Playwright + API CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Install Maven Dependencies
+        run: mvn install -DskipTests
+
+      - name: Run UI & API Tests
+        run: mvn test
+
+      - name: Upload Extent Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: extent-report
+          path: test-output/
+
