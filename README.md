@@ -6,7 +6,7 @@ This project demonstrates full-stack automation testing for a simple web applica
 
 ## 📌 Project Overview
 
-- **Frontend:** React CRUD App (Workouts)
+- **Frontend:** React CRUD App (Goals/Workouts)
 - **Backend:** Node.js + Express + MongoDB API
 - **UI Testing:** Java + Playwright + JUnit + ExtentReports
 - **API Testing:** Java + REST-assured
